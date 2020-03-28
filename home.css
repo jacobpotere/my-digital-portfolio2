@@ -1,0 +1,124 @@
+nav {
+  font-family: sans-serif;
+  font-weight: lighter;
+  align-items: center;
+  font-size: 18px;
+}
+.navbar-nav {
+  align-content: center;
+
+}
+.nav-item {
+  padding-left: 80px;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-family: comic;
+  font-weight: bold;
+}
+.bg  {
+  background-color: #dddddd;
+}
+.herohome {
+  color: white;
+  word-spacing: 5px;
+  font-family: comic;
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('https://images.pexels.com/photos/934718/pexels-photo-934718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dominican {
+  height: 300px;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('https://cal-catholic.com/wp-content/uploads//2018/04/af382f9f-f59a-4be1-aedf-10c1b0bb8166.jpeg');
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.linked {
+  height: 20px;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('https://www.thesaint-online.com/wp-content/uploads/2019/12/linkedin-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-style: solid;
+  border-color: #dddddd;
+}
+.connect {
+  text-decoration: underline;
+}
+.run:hover {
+  transform: scale(1.1) rotate(1deg) translateX(2px);
+  flex: 1 1 200px;
+  transition: all 300ms;
+}
+.header {
+  font-family: serif;
+  color:  #cc9c00;
+  background-color: black;
+  font-size: 55px;
+  letter-spacing: 3px;
+  word-spacing: 20px;
+}
+.header2 {
+    font-family: serif;
+    color:  #cc9c00;
+    background-color: black;
+    font-size: 55px;
+    letter-spacing: 3px;
+  }
+.header3 {
+  font-family: serif;
+  color:  #f3f21d;
+  background-color: black;
+  font-size: 55px;
+  letter-spacing: 3px;
+}
+.goals {
+  font-family: serif;
+  color:  #3ec31b;
+  background-color: black;
+  font-size: 55px;
+  letter-spacing: 3px;
+}
+p {
+  font-family: comic;
+  font-size: 20px;
+}
+.text {
+  background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url('https://images.pexels.com/photos/1556704/pexels-photo-1556704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  color: white;
+  word-spacing: 5px;
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+}
+.facts {
+  background-color: #d3d3d3;
+}
+.done {
+  color: #3ec31b;
+}
+.goalsbg {
+  background-color: #010101;
+  color: white;
+}
